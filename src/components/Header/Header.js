@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,8 +8,8 @@ const Header = () => {
         <div class="bg-gray-900">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
-          <a
-            href="/"
+          <Link
+            to="/"
             aria-label="Company"
             title="Company"
             class="inline-flex items-center"
@@ -31,47 +32,47 @@ const Header = () => {
             <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
               Quiz Online
             </span>
-          </a>
+          </Link>
           <ul class="items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
+              <Link
+                to="/"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/statistics"
+              <Link
+                to="/statistics"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Statistics
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/blog"
+              <Link
+                to="/blog"
                 aria-label="Product pricing"
                 title="Product pricing"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/about"
                 aria-label="About us"
                 title="About us"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 About us
-              </a>
+              </Link>
             </li>
           </ul>
           <div class="lg:hidden">
