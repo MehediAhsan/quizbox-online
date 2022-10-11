@@ -11,7 +11,7 @@ const TopicDetails = () => {
         <div className='mb-20'>
             <h1 className='text-2xl font-bold text-center my-20'>Quiz of {name}</h1>
             {
-                questions.map(quiz => <Quiz key={quiz.id} quiz={quiz}></Quiz>)
+                questions.map((quiz,idx) => <Quiz key={quiz.id} quiz={quiz} idx={idx}></Quiz>)
             }
         </div>
     );

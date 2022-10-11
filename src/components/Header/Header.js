@@ -41,7 +41,7 @@ const Header = () => {
                 title="Our product"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Home
+                Topics
               </Link>
             </li>
             <li>
@@ -92,8 +92,8 @@ const Header = () => {
                 <div className="p-5 bg-white border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
-                      <a
-                        href="/"
+                      <Link
+                        to="/"
                         aria-label="Company"
                         title="Company"
                         className="inline-flex items-center"
@@ -116,7 +116,7 @@ const Header = () => {
                         <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                           Quiz Online
                         </span>
-                      </a>
+                      </Link>
                     </div>
                     <div>
                       <button
@@ -137,34 +137,34 @@ const Header = () => {
                   <nav>
                     <ul className="space-y-4">
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/"
                           aria-label="Our product"
                           title="Our product"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Home
-                        </a>
+                          Topics
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/statistics"
+                        <Link
+                          to="/statistics"
                           aria-label="Our product"
                           title="Our product"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Statistics
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/blog"
+                        <Link
+                          to="/blog"
                           aria-label="Product pricing"
                           title="Product pricing"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Blog
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>

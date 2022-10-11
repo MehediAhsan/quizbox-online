@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ArrowRightIcon } from '@heroicons/react/24/solid';
 
 const QuizTopic = ({topic}) => {
     const {id,name, logo, total} = topic;
@@ -25,7 +26,8 @@ const QuizTopic = ({topic}) => {
               type="submit"
               className="inline-flex items-center justify-center py-3 px-5 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-500 hover:bg-purple-600 focus:shadow-outline focus:outline-none"
             >
-              Start Practice
+              <span>Start Practice</span> 
+              <ArrowRightIcon className="h-6 w-6"/>
             </button>
             </Link>
           </div>
