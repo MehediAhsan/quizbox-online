@@ -1,13 +1,14 @@
 import React, { useContext } from 'react';
 import { TopicContext } from '../../layout/Main';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const Statistics = () => {
     const topics = useContext(TopicContext);
     console.log(topics);
     return (
-        <div>        
-            <h1 className='text-2xl font-bold text-center my-10'>Total Quiz</h1>
+        <div className='sm:w-9/12 md:w-8/12 lg:w-6/12 mx-auto'>        
+            <h1 className='text-2xl font-bold text-center my-12'>Total Quiz Analysis</h1>
+            <ResponsiveContainer width="100%" height={400}>
             <BarChart
             style={{ margin: "0 auto" }}
             width={600}
@@ -27,6 +28,7 @@ const Statistics = () => {
             <Legend />
             <Bar dataKey="total" fill="#82ca9d" />
             </BarChart>
+            </ResponsiveContainer>
         </div>
     );
 };
