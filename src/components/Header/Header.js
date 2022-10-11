@@ -64,16 +64,6 @@ const Header = () => {
                 Blog
               </Link>
             </li>
-            <li>
-              <Link
-                to="/about"
-                aria-label="About us"
-                title="About us"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                About us
-              </Link>
-            </li>
           </ul>
           <div className="lg:hidden">
             <button
@@ -174,16 +164,6 @@ const Header = () => {
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Blog
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="About us"
-                          title="About us"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                        >
-                          About us
                         </a>
                       </li>
                     </ul>
