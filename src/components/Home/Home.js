@@ -5,7 +5,6 @@ import QuizTopic from '../QuizTopic/QuizTopic';
 
 const Home = () => {
     const topics = useContext(TopicContext)
-    console.log(topics);
     return (
         <div>
             <Banner></Banner>

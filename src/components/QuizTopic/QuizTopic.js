@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const QuizTopic = ({topic}) => {
-    const {name, logo, total} = topic;
+    const {id,name, logo, total} = topic;
     return (
         <div className=" bg-white rounded shadow-sm md:text-center">
           <div className="relative">
@@ -19,12 +20,14 @@ const QuizTopic = ({topic}) => {
             <p className="mb-5 text-gray-700">
               Total Quiz: {total}
             </p>
+            <Link to={`/quiz/${id}`}>
             <button
               type="submit"
               className="inline-flex items-center justify-center py-3 px-5 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-500 hover:bg-purple-600 focus:shadow-outline focus:outline-none"
             >
               Start Practice
             </button>
+            </Link>
           </div>
         </div>
     );
