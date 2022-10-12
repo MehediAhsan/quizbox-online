@@ -39,7 +39,7 @@ const Header = () => {
                 to="/"
                 aria-label="Our product"
                 title="Our product"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-500"
               >
                 Topics
               </Link>
@@ -49,7 +49,7 @@ const Header = () => {
                 to="/statistics"
                 aria-label="Our product"
                 title="Our product"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-500"
               >
                 Statistics
               </Link>
@@ -59,7 +59,7 @@ const Header = () => {
                 to="/blog"
                 aria-label="Product pricing"
                 title="Product pricing"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-500"
               >
                 Blog
               </Link>
@@ -141,7 +141,7 @@ const Header = () => {
                           to="/"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-500"
                         >
                           Topics
                         </Link>
@@ -151,7 +151,7 @@ const Header = () => {
                           to="/statistics"
                           aria-label="Our product"
                           title="Our product"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-500"
                         >
                           Statistics
                         </Link>
@@ -161,7 +161,7 @@ const Header = () => {
                           to="/blog"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-500"
                         >
                           Blog
                         </Link>

@@ -4,10 +4,9 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 
 const Statistics = () => {
     const topics = useContext(TopicContext);
-    console.log(topics);
     return (
         <div className='sm:w-9/12 md:w-8/12 lg:w-6/12 mx-auto'>        
-            <h1 className='text-2xl font-bold text-center my-12'>Total Quiz Analysis</h1>
+            <h1 className='text-3xl font-semibold text-center my-14'>Total Quiz Analysis</h1>
             <ResponsiveContainer width="100%" height={400}>
             <BarChart
             style={{ margin: "0 auto" }}

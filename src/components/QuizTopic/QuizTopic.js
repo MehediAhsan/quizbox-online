@@ -18,7 +18,7 @@ const QuizTopic = ({topic}) => {
             <h5 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
               {name}
             </h5>
-            <p className="mb-5 text-gray-700 font-semibold">
+            <p className="mb-5 text-gray-800 font-semibold">
               Total Quiz: {total}
             </p>
             <Link to={`/quiz/${id}`}>
