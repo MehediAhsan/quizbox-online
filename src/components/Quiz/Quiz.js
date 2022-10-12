@@ -1,6 +1,5 @@
 import React from 'react';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 import { EyeIcon } from '@heroicons/react/24/solid';
 
 const Quiz = ({quiz,idx}) => {
@@ -22,7 +21,7 @@ const Quiz = ({quiz,idx}) => {
     return (
         <div className='w-max-xs lg:w-6/12 mx-auto mt-10 shadow-lg p-5'>
             <div className='flex items-baseline justify-between mb-5'>
-                <h1 className='text-xl font-semibold'>Quiz {idx+1}: {question}</h1>
+                <h1 className='text-xl font-semibold'>Quiz {idx+1}: {question.replace( /(<([^>]+)>)/ig, '')}</h1>
                 <button onClick={handleCorrectAnswer}><EyeIcon className="h-6 w-6"/></button>
             </div>
             <div>
@@ -30,16 +29,14 @@ const Quiz = ({quiz,idx}) => {
                 {
                     options.map((option,idx) => 
                         <button onClick={() => handleOptionData(option)} key={idx} className="flex items-center space-x-3 mb-3 p-3 hover:bg-gray-100 border-gray-300 border ml-8 w-11/12">
-                        <input type="radio" name="checked-demo" className="form-tick appearance-none bg-white bg-check h-6 w-6 border border-gray-300 rounded-md checked:bg-blue-500 checked:border-transparent focus:outline-none"/>
                         <span>
-                            {option}
+                            {idx + 1}. {option}
                         </span>
                         </button>
                      )
                 }
                                 
             </div>
-            <ToastContainer />
         </div>
     );
 };
