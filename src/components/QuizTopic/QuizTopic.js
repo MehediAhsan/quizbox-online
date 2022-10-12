@@ -19,7 +19,7 @@ const QuizTopic = ({topic}) => {
               {name}
             </h5>
             <p className="mb-5 text-gray-800 font-semibold">
-              Total Quiz: {total}
+              Total Questions: {total}
             </p>
             <Link to={`/quiz/${id}`}>
             <button

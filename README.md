@@ -4,7 +4,7 @@ This Project contains a group of programming questions and their answers and che
 
 
 ## Live Link
-Hosted in Netlify -> 
+Hosted in Netlify -> [Quiz Box](https://quizbox-online.netlify.app/)
 
 ## Project Description:
 
@@ -16,7 +16,11 @@ Hosted in Netlify ->
 
 ## Use Resources
 Framework -> [Tailwindcss](https://tailwindcss.com/)
+
 Tailwind Components -> [Kitwind](https://kitwind.io/products/kometa/components)
+
 Icon -> [HeroIcons](https://heroicons.com/)
+
 Icon -> [HeroIcons](https://heroicons.com/)
+
 Toast -> [Toastify](https://www.npmjs.com/package/react-toastify)
