@@ -10,16 +10,14 @@ Hosted in Netlify -> [Quiz Box](https://quizbox-online.netlify.app/)
 
 - Add a header section and also add multiple quiz topics in homepage
 - View each quiz topic details  
-- Each quiz topic has a lot of questions and options where user test their answers correct or wrong when they click and also add a view for see the correct answer
-- Add a chart to analysis total quiz number for each quiz topic
+- Each quiz topic has a lot of questions and options where user test their answers correct or wrong when they click and also add a button for see the correct answer
+- Add a chart to show total quiz number for each quiz topic
 - Add a blog section and display three questions and answers
 
 ## Use Resources
 Framework -> [Tailwindcss](https://tailwindcss.com/)
 
 Tailwind Components -> [Kitwind](https://kitwind.io/products/kometa/components)
-
-Icon -> [HeroIcons](https://heroicons.com/)
 
 Icon -> [HeroIcons](https://heroicons.com/)
 
